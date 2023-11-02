@@ -1,8 +1,10 @@
-import random
+from random import randint
+
 
 # Roll the dice
 def roll_dice():
-    return random.randint(1, 6)
+    return randint(1, 20)
+
 
 # Roll the dice and print the result
 result = roll_dice()
